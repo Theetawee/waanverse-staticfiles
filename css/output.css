@@ -1188,6 +1188,10 @@ input:checked + .toggle-bg{
   height: 80vh;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
 .w-1\/2{
   width: 50%;
 }
