@@ -1,4 +1,4 @@
-*{font-family: 'Inter', sans-serif;}@tailwind base;@tailwind components;@tailwind utilities;
+*{font-family: 'Rubik', sans-serif;}@tailwind base;@tailwind components;@tailwind utilities;
 @media(max-width:457px){
     .logo-text{
         display: none;
