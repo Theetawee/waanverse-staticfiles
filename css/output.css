@@ -1113,6 +1113,11 @@ input:checked + .toggle-bg{
   margin-bottom: 1.5rem;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-1{
   margin-bottom: 0.25rem;
 }
@@ -1267,6 +1272,10 @@ input:checked + .toggle-bg{
 
 .h-screen{
   height: 100vh;
+}
+
+.h-px{
+  height: 1px;
 }
 
 .min-h-screen{
@@ -2494,6 +2503,11 @@ input:checked + .toggle-bg{
 :is(.dark .dark\:text-primary-400){
   --tw-text-opacity: 1;
   color: rgb(45 212 191 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-dark-800){
+  --tw-text-opacity: 1;
+  color: rgb(36 37 38 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:placeholder-gray-400)::-moz-placeholder{
