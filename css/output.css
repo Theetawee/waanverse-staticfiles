@@ -1113,11 +1113,6 @@ input:checked + .toggle-bg{
   margin-bottom: 1.5rem;
 }
 
-.my-8{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .mb-1{
   margin-bottom: 0.25rem;
 }
@@ -1168,10 +1163,6 @@ input:checked + .toggle-bg{
 
 .mr-8{
   margin-right: 2rem;
-}
-
-.mr-auto{
-  margin-right: auto;
 }
 
 .mt-2{
@@ -1270,12 +1261,12 @@ input:checked + .toggle-bg{
   height: 100%;
 }
 
-.h-screen{
-  height: 100vh;
-}
-
 .h-px{
   height: 1px;
+}
+
+.h-screen{
+  height: 100vh;
 }
 
 .min-h-screen{
@@ -1428,10 +1419,6 @@ input:checked + .toggle-bg{
   resize: both;
 }
 
-.list-inside{
-  list-style-position: inside;
-}
-
 .list-disc{
   list-style-type: disc;
 }
@@ -1492,6 +1479,10 @@ input:checked + .toggle-bg{
   gap: 0.25rem;
 }
 
+.gap-10{
+  gap: 2.5rem;
+}
+
 .gap-2{
   gap: 0.5rem;
 }
@@ -1510,10 +1501,6 @@ input:checked + .toggle-bg{
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-10{
-  gap: 2.5rem;
 }
 
 .gap-x-8{
@@ -1562,10 +1549,6 @@ input:checked + .toggle-bg{
 .divide-dark-500 > :not([hidden]) ~ :not([hidden]){
   --tw-divide-opacity: 1;
   border-color: rgb(103 104 109 / var(--tw-divide-opacity));
-}
-
-.place-self-center{
-  place-self: center;
 }
 
 .self-center{
@@ -1684,6 +1667,11 @@ input:checked + .toggle-bg{
   background-color: rgb(26 86 219 / var(--tw-bg-opacity));
 }
 
+.bg-dark-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .bg-gray-100{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -1741,16 +1729,6 @@ input:checked + .toggle-bg{
 
 .bg-white\/50{
   background-color: rgb(255 255 255 / 0.5);
-}
-
-.bg-primary-100{
-  --tw-bg-opacity: 1;
-  background-color: rgb(204 251 241 / var(--tw-bg-opacity));
-}
-
-.bg-dark-100{
-  --tw-bg-opacity: 1;
-  background-color: rgb(176 179 184 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50{
@@ -1815,6 +1793,11 @@ input:checked + .toggle-bg{
   padding-right: 1.5rem;
 }
 
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .py-16{
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1843,11 +1826,6 @@ input:checked + .toggle-bg{
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 .pb-5{
@@ -1943,10 +1921,6 @@ input:checked + .toggle-bg{
 
 .font-semibold{
   font-weight: 600;
-}
-
-.font-extrabold{
-  font-weight: 800;
 }
 
 .uppercase{
@@ -2225,7 +2199,7 @@ input:checked + .toggle-bg{
 
 .hover\:bg-dark-100:hover{
   --tw-bg-opacity: 1;
-  background-color: rgb(176 179 184 / var(--tw-bg-opacity));
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gray-100:hover{
@@ -2475,6 +2449,11 @@ input:checked + .toggle-bg{
   color: rgb(75 75 78 / var(--tw-text-opacity));
 }
 
+:is(.dark .dark\:text-gray-100){
+  --tw-text-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-text-opacity));
+}
+
 :is(.dark .dark\:text-gray-300){
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
@@ -2483,6 +2462,11 @@ input:checked + .toggle-bg{
 :is(.dark .dark\:text-gray-400){
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-primary-400){
+  --tw-text-opacity: 1;
+  color: rgb(45 212 191 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:text-primary-500){
@@ -2498,16 +2482,6 @@ input:checked + .toggle-bg{
 :is(.dark .dark\:text-white){
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-:is(.dark .dark\:text-primary-400){
-  --tw-text-opacity: 1;
-  color: rgb(45 212 191 / var(--tw-text-opacity));
-}
-
-:is(.dark .dark\:text-dark-800){
-  --tw-text-opacity: 1;
-  color: rgb(36 37 38 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:placeholder-gray-400)::-moz-placeholder{
@@ -2767,6 +2741,11 @@ input:checked + .toggle-bg{
     line-height: 2rem;
   }
 
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .md\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -2786,20 +2765,11 @@ input:checked + .toggle-bg{
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-
-  .md\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
 }
 
 @media (min-width: 1024px){
   .lg\:order-2{
     order: 2;
-  }
-
-  .lg\:col-span-7{
-    grid-column: span 7 / span 7;
   }
 
   .lg\:my-8{
