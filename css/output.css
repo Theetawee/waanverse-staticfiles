@@ -2993,6 +2993,10 @@ input:checked + .toggle-bg{
     margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
   }
 
+  .md\:p-6{
+    padding: 1.5rem;
+  }
+
   .md\:px-16{
     padding-left: 4rem;
     padding-right: 4rem;
