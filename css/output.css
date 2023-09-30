@@ -1250,6 +1250,10 @@ input:checked + .toggle-bg{
   margin-top: 1.25rem;
 }
 
+.ml-80{
+  margin-left: 20rem;
+}
+
 .block{
   display: block;
 }
@@ -2957,6 +2961,10 @@ input:checked + .toggle-bg{
 
   .md\:flex-row{
     flex-direction: row;
+  }
+
+  .md\:justify-center{
+    justify-content: center;
   }
 
   .md\:justify-between{
