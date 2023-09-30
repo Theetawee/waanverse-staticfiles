@@ -1238,6 +1238,14 @@ input:checked + .toggle-bg{
   margin-top: 2rem;
 }
 
+.mt-40{
+  margin-top: 10rem;
+}
+
+.mt-20{
+  margin-top: 5rem;
+}
+
 .block{
   display: block;
 }
@@ -1340,6 +1348,14 @@ input:checked + .toggle-bg{
 
 .h-16{
   height: 4rem;
+}
+
+.h-9{
+  height: 2.25rem;
+}
+
+.h-96{
+  height: 24rem;
 }
 
 .max-h-full{
@@ -1855,6 +1871,11 @@ input:checked + .toggle-bg{
 
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
+}
+
+.object-contain{
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .object-cover{
