@@ -1246,6 +1246,10 @@ input:checked + .toggle-bg{
   margin-top: 5rem;
 }
 
+.mt-5{
+  margin-top: 1.25rem;
+}
+
 .block{
   display: block;
 }
@@ -1412,6 +1416,10 @@ input:checked + .toggle-bg{
 
 .w-full{
   width: 100%;
+}
+
+.w-8{
+  width: 2rem;
 }
 
 .max-w-2xl{
