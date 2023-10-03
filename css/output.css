@@ -1511,6 +1511,16 @@ input:checked + .toggle-bg{
   transform: none;
 }
 
+@keyframes spin{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin{
+  animation: spin 1s linear infinite;
+}
+
 .cursor-default{
   cursor: default;
 }
@@ -1940,6 +1950,14 @@ input:checked + .toggle-bg{
   background-position: center;
 }
 
+.fill-blue-600{
+  fill: #1C64F2;
+}
+
+.fill-primary-600{
+  fill: #0d9488;
+}
+
 .object-contain{
   -o-object-fit: contain;
      object-fit: contain;
@@ -2348,6 +2366,16 @@ input:checked + .toggle-bg{
 .text-yellow-400{
   --tw-text-opacity: 1;
   color: rgb(227 160 8 / var(--tw-text-opacity));
+}
+
+.text-gray-200{
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
+.text-primary-200{
+  --tw-text-opacity: 1;
+  color: rgb(153 246 228 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -2870,6 +2898,11 @@ input:checked + .toggle-bg{
 :is(.dark .dark\:text-white){
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-gray-600){
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:placeholder-dark-400)::-moz-placeholder{
