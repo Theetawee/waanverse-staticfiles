@@ -2158,6 +2158,10 @@ input:checked + .toggle-bg{
   padding-top: 0px;
 }
 
+.pt-1{
+  padding-top: 0.25rem;
+}
+
 .text-left{
   text-align: left;
 }
