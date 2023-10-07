@@ -1243,6 +1243,10 @@ input:checked + .toggle-bg{
   margin-top: 1.5rem;
 }
 
+.mt-12{
+  margin-top: 3rem;
+}
+
 .block{
   display: block;
 }
@@ -1732,6 +1736,12 @@ input:checked + .toggle-bg{
 
 .overflow-x-hidden{
   overflow-x: hidden;
+}
+
+.truncate{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .rounded{
