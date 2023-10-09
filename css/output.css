@@ -1166,12 +1166,12 @@ input:checked + .toggle-bg{
   margin-bottom: 2.5rem;
 }
 
-.mb-2{
-  margin-bottom: 0.5rem;
+.mb-12{
+  margin-bottom: 3rem;
 }
 
-.mb-20{
-  margin-bottom: 5rem;
+.mb-2{
+  margin-bottom: 0.5rem;
 }
 
 .mb-3{
@@ -1218,6 +1218,10 @@ input:checked + .toggle-bg{
   margin-right: 0.75rem;
 }
 
+.mr-4{
+  margin-right: 1rem;
+}
+
 .mr-8{
   margin-right: 2rem;
 }
@@ -1238,16 +1242,16 @@ input:checked + .toggle-bg{
   margin-top: 0.5rem;
 }
 
+.mt-3{
+  margin-top: 0.75rem;
+}
+
 .mt-4{
   margin-top: 1rem;
 }
 
 .mt-6{
   margin-top: 1.5rem;
-}
-
-.mb-12{
-  margin-bottom: 3rem;
 }
 
 .block{
@@ -1362,16 +1366,28 @@ input:checked + .toggle-bg{
   height: 100vh;
 }
 
-.h-2{
-  height: 0.5rem;
-}
-
 .max-h-full{
   max-height: 100%;
 }
 
 .min-h-screen{
   min-height: 100vh;
+}
+
+.min-h-\[80vh\]{
+  min-height: 80vh;
+}
+
+.min-h-\[90vh\]{
+  min-height: 90vh;
+}
+
+.min-h-\[92vh\]{
+  min-height: 92vh;
+}
+
+.min-h-\[91vh\]{
+  min-height: 91vh;
 }
 
 .w-1\/2{
@@ -1430,28 +1446,12 @@ input:checked + .toggle-bg{
   width: 24rem;
 }
 
-.w-full{
-  width: 100%;
-}
-
-.w-2{
-  width: 0.5rem;
-}
-
-.w-\[100px\]{
-  width: 100px;
-}
-
-.w-\[90\%\]{
-  width: 90%;
-}
-
 .w-\[80\%\]{
   width: 80%;
 }
 
-.w-1{
-  width: 0.25rem;
+.w-full{
+  width: 100%;
 }
 
 .max-w-2xl{
@@ -1610,6 +1610,10 @@ input:checked + .toggle-bg{
   flex-direction: column;
 }
 
+.flex-col-reverse{
+  flex-direction: column-reverse;
+}
+
 .flex-wrap{
   flex-wrap: wrap;
 }
@@ -1706,12 +1710,12 @@ input:checked + .toggle-bg{
   row-gap: 1.5rem;
 }
 
-.gap-y-4{
-  row-gap: 1rem;
-}
-
 .gap-y-8{
   row-gap: 2rem;
+}
+
+.gap-y-5{
+  row-gap: 1.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -1791,14 +1795,6 @@ input:checked + .toggle-bg{
 
 .rounded-sm{
   border-radius: 0.125rem;
-}
-
-.rounded-\[4px\]{
-  border-radius: 4px;
-}
-
-.rounded-\[4xp\]{
-  border-radius: 4xp;
 }
 
 .rounded-l-lg{
@@ -2142,11 +2138,6 @@ input:checked + .toggle-bg{
   padding-bottom: 2rem;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .pb-12{
   padding-bottom: 3rem;
 }
@@ -2234,9 +2225,16 @@ input:checked + .toggle-bg{
   line-height: 2.5rem;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
+.text-\[1\.5rem\]{
+  font-size: 1.5rem;
+}
+
+.text-\[1rem\]{
+  font-size: 1rem;
+}
+
+.text-\[2\.2rem\]{
+  font-size: 2.2rem;
 }
 
 .text-base{
@@ -2262,43 +2260,6 @@ input:checked + .toggle-bg{
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[1rem\]{
-  font-size: 1rem;
-}
-
-.text-\[2rem\]{
-  font-size: 2rem;
-}
-
-.text-\[3rem\]{
-  font-size: 3rem;
-}
-
-.text-\[2\.5rem\]{
-  font-size: 2.5rem;
-}
-
-.text-\[2\.2rem\]{
-  font-size: 2.2rem;
-}
-
-.text-\[1\.2rem\]{
-  font-size: 1.2rem;
-}
-
-.text-\[1\.5rem\]{
-  font-size: 1.5rem;
-}
-
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-\[4rem\]{
-  font-size: 4rem;
 }
 
 .font-bold{
@@ -2496,10 +2457,6 @@ input:checked + .toggle-bg{
 .text-yellow-400{
   --tw-text-opacity: 1;
   color: rgb(227 160 8 / var(--tw-text-opacity));
-}
-
-.text-\[\]{
-  color: ;
 }
 
 .underline{
@@ -3155,11 +3112,6 @@ input:checked + .toggle-bg{
   --tw-ring-color: rgb(5 80 92 / var(--tw-ring-opacity));
 }
 
-:is(.dark .dark\:focus\:ring-blue-800:focus){
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(30 66 159 / var(--tw-ring-opacity));
-}
-
 :is(.dark .group:hover .dark\:group-hover\:text-primary-800){
   --tw-text-opacity: 1;
   color: rgb(17 94 89 / var(--tw-text-opacity));
@@ -3171,6 +3123,10 @@ input:checked + .toggle-bg{
 }
 
 @media (min-width: 640px){
+  .sm\:mt-0{
+    margin-top: 0px;
+  }
+
   .sm\:max-w-md{
     max-width: 28rem;
   }
@@ -3187,6 +3143,10 @@ input:checked + .toggle-bg{
   .sm\:py-16{
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .sm\:text-center{
+    text-align: center;
   }
 
   .sm\:text-2xl{
@@ -3218,6 +3178,10 @@ input:checked + .toggle-bg{
     margin-right: 6rem;
   }
 
+  .md\:mr-6{
+    margin-right: 1.5rem;
+  }
+
   .md\:mt-0{
     margin-top: 0px;
   }
@@ -3238,16 +3202,12 @@ input:checked + .toggle-bg{
     height: 8rem;
   }
 
-  .md\:h-screen{
-    height: 100vh;
-  }
-
-  .md\:h-full{
-    height: 100%;
-  }
-
   .md\:h-96{
     height: 24rem;
+  }
+
+  .md\:h-screen{
+    height: 100vh;
   }
 
   .md\:min-h-screen{
@@ -3256,14 +3216,6 @@ input:checked + .toggle-bg{
 
   .md\:w-32{
     width: 8rem;
-  }
-
-  .md\:w-full{
-    width: 100%;
-  }
-
-  .md\:w-96{
-    width: 24rem;
   }
 
   .md\:w-72{
@@ -3318,22 +3270,18 @@ input:checked + .toggle-bg{
     padding-right: 2.5rem;
   }
 
-  .md\:py-16{
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
   .md\:py-0{
     padding-top: 0px;
     padding-bottom: 0px;
   }
 
-  .md\:text-left{
-    text-align: left;
+  .md\:py-16{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
-  .md\:text-start{
-    text-align: start;
+  .md\:text-left{
+    text-align: left;
   }
 
   .md\:text-2xl{
@@ -3346,21 +3294,17 @@ input:checked + .toggle-bg{
     line-height: 2.5rem;
   }
 
-  .md\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+  .md\:text-\[2\.2rem\]{
+    font-size: 2.2rem;
   }
 
   .md\:text-\[3rem\]{
     font-size: 3rem;
   }
 
-  .md\:text-\[2rem\]{
-    font-size: 2rem;
-  }
-
-  .md\:text-\[2\.2rem\]{
-    font-size: 2.2rem;
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
