@@ -1158,6 +1158,11 @@ input:checked + .toggle-bg{
   margin-bottom: 1rem;
 }
 
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mb-1{
   margin-bottom: 0.25rem;
 }
@@ -1710,6 +1715,16 @@ input:checked + .toggle-bg{
   row-gap: 2rem;
 }
 
+.gap-x-12{
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+
+.gap-x-20{
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -2135,6 +2150,11 @@ input:checked + .toggle-bg{
   padding-bottom: 2rem;
 }
 
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .pb-12{
   padding-bottom: 3rem;
 }
@@ -2257,6 +2277,10 @@ input:checked + .toggle-bg{
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[1\.2rem\]{
+  font-size: 1.2rem;
 }
 
 .font-bold{
@@ -2454,6 +2478,10 @@ input:checked + .toggle-bg{
 .text-yellow-400{
   --tw-text-opacity: 1;
   color: rgb(227 160 8 / var(--tw-text-opacity));
+}
+
+.text-\[1\.\]{
+  color: 1.;
 }
 
 .underline{
@@ -3280,6 +3308,11 @@ input:checked + .toggle-bg{
   .md\:py-16{
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .md\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .md\:text-left{
