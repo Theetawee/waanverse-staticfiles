@@ -616,10 +616,8 @@ input[type=file]::file-selector-button{
   padding-bottom: 0.625rem;
   padding-left: 2rem;
   padding-right: 1rem;
-  -webkit-margin-start: -1rem;
-          margin-inline-start: -1rem;
-  -webkit-margin-end: 1rem;
-          margin-inline-end: 1rem;
+  margin-inline-start: -1rem;
+  margin-inline-end: 1rem;
 }
 
 input[type=file]::file-selector-button:hover{
@@ -2242,8 +2240,8 @@ input:checked + .toggle-bg{
   font-size: 1rem;
 }
 
-.text-\[2\.2rem\]{
-  font-size: 2.2rem;
+.text-\[2rem\]{
+  font-size: 2rem;
 }
 
 .text-base{
@@ -2269,10 +2267,6 @@ input:checked + .toggle-bg{
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[2rem\]{
-  font-size: 2rem;
 }
 
 .font-bold{
