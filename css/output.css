@@ -2336,6 +2336,11 @@ input:checked + .toggle-bg{
   color: rgb(51 51 51 / var(--tw-text-opacity));
 }
 
+.text-dark-700{
+  --tw-text-opacity: 1;
+  color: rgb(26 26 26 / var(--tw-text-opacity));
+}
+
 .text-dark-800{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -2444,11 +2449,6 @@ input:checked + .toggle-bg{
 .text-yellow-400{
   --tw-text-opacity: 1;
   color: rgb(227 160 8 / var(--tw-text-opacity));
-}
-
-.text-dark-700{
-  --tw-text-opacity: 1;
-  color: rgb(26 26 26 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -2903,6 +2903,11 @@ input:checked + .toggle-bg{
   color: rgb(191 191 191 / var(--tw-text-opacity));
 }
 
+:is(.dark .dark\:text-dark-300){
+  --tw-text-opacity: 1;
+  color: rgb(153 153 153 / var(--tw-text-opacity));
+}
+
 :is(.dark .dark\:text-dark-400){
   --tw-text-opacity: 1;
   color: rgb(115 115 115 / var(--tw-text-opacity));
@@ -2951,11 +2956,6 @@ input:checked + .toggle-bg{
 :is(.dark .dark\:text-white){
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-:is(.dark .dark\:text-dark-300){
-  --tw-text-opacity: 1;
-  color: rgb(153 153 153 / var(--tw-text-opacity));
 }
 
 :is(.dark .dark\:placeholder-dark-400)::-moz-placeholder{
